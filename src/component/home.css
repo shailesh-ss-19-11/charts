@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    /* margin-left: 7%; */
+    flex-wrap: wrap;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.box{
+    width: 20rem;
+    padding:10px;
+    /* height: 45vh; */
+    margin: 0.3rem 0.3rem;
+    /* background-color: gold; */
+    border: 1px solid rgb(147, 128, 128);
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(190, 120, 120);
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 4%;
+}
+.box .box1{
+    height: 100%;
+}
+.box1 hr{
+    width: 95%; 
+    height:0.1px;
+    padding:0;
+  /* border: solid 1px; */
+}
+
+.info{
+    text-align: left;
+    margin-left: 3%;
+    
+}
+.info table tr td{
+    width: 80%;
+}
+.info table hr{
+    width: 100%;
+}
+.info .main-info table{
+    width:80%;
+    font-size: 12px;
+}
+.box1 .footer{
+    margin-top:10px;
+    margin-left: 3%;
+    /* width: 70%; */
+}
+.box1 .footer td{
+    width:50%;
+    text-align: left;
+}
+.box1 .footer span{
+    font-size: 12px;
+}
+.box1 .footer strong{
+    color:rgb(9, 66, 164)
+}
+.footer .achivement{
+    font-size:13px;
+    background-color: rgb(216, 205, 205);
+    padding: 0 12px;
+    border-radius: 10px;
+}
+@media screen and (min-width:1300px) {
+    .box{
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .box{
+        width: 19rem;
+    }
+}
